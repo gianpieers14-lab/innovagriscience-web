@@ -1,22 +1,22 @@
 {
   "items": [
     {
-      "texto": "Macho — Planococcus citri (alado)",
+      "texto": "Macho (alado) — Planococcus citri ",
       "tipo": "Título",
       "id": "title-macho-planococcus-citri"
     },
     {
-      "texto": "Individuo macho adulto alado sobre colonia",
+      "texto": "Individuo macho adulto (alado) sobre la hembra adulta.",
       "tipo": "Descripción",
       "id": "desc-individuo-macho-adulto-alado-sobre-colon"
     },
     {
-      "texto": "Vista lateral del macho adulto alado",
+      "texto": "Vista lateral del macho adulto.",
       "tipo": "Descripción",
       "id": "desc-vista-lateral-del-macho-adulto-alado"
     },
     {
-      "texto": "Hembra adulta — Planococcus citri",
+      "texto": "Hembras adultas — Planococcus citri",
       "tipo": "Título",
       "id": "title-hembra-adulta-planococcus-citri"
     },
@@ -26,7 +26,7 @@
       "id": "desc-colonia-de-hembras-adultas"
     },
     {
-      "texto": "Hembra — Planococcus citri",
+      "texto": "Hembra  adulta — Planococcus citri",
       "tipo": "Título",
       "id": "title-hembra-planococcus-citri"
     },
@@ -41,17 +41,12 @@
       "id": "title-huevos-planococcus-citri"
     },
     {
-      "texto": "Masa ovígera en detalle ultra macro",
+      "texto": "Ovisaco en detalle macro",
       "tipo": "Descripción",
       "id": "desc-masa-ovigera-en-detalle-ultra-macro"
     },
     {
-      "texto": "Postura sobre tejido vegetal",
-      "tipo": "Descripción",
-      "id": "desc-postura-sobre-tejido-vegetal"
-    },
-    {
-      "texto": "Distribución de huevos en el sustrato",
+      "texto": "Detalle de huevos a nivel ultra macro.",
       "tipo": "Descripción",
       "id": "desc-distribucion-de-huevos-en-el-sustrato"
     },
