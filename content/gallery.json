@@ -1,244 +1,244 @@
 {
   "items": [
     {
-      "id": "title-macho-planococcus-citri",
+      "texto": "Macho — Planococcus citri (alado)",
       "tipo": "Título",
-      "texto": "Macho — (Planococcus citri)"
+      "id": "title-macho-planococcus-citri"
     },
     {
-      "id": "desc-individuo-macho-adulto-alado-sobre-colon",
+      "texto": "Individuo macho adulto alado sobre colonia",
       "tipo": "Descripción",
-      "texto": "Individuo macho adulto alado sobre colonia"
+      "id": "desc-individuo-macho-adulto-alado-sobre-colon"
     },
     {
-      "id": "desc-vista-lateral-del-macho-adulto-alado",
+      "texto": "Vista lateral del macho adulto alado",
       "tipo": "Descripción",
-      "texto": "Vista lateral del macho adulto alado"
+      "id": "desc-vista-lateral-del-macho-adulto-alado"
     },
     {
-      "id": "title-hembra-adulta-planococcus-citri",
+      "texto": "Hembra adulta — Planococcus citri",
       "tipo": "Título",
-      "texto": "Hembra adulta — Planococcus citri"
+      "id": "title-hembra-adulta-planococcus-citri"
     },
     {
-      "id": "desc-colonia-de-hembras-adultas",
+      "texto": "Colonia de hembras adultas",
       "tipo": "Descripción",
-      "texto": "Colonia de hembras adultas"
+      "id": "desc-colonia-de-hembras-adultas"
     },
     {
-      "id": "title-hembra-planococcus-citri",
+      "texto": "Hembra — Planococcus citri",
       "tipo": "Título",
-      "texto": "Hembra — Planococcus citri"
+      "id": "title-hembra-planococcus-citri"
     },
     {
-      "id": "desc-hembra-rodeada-por-diferentes-estadios-n",
+      "texto": "Hembra rodeada por diferentes estadios ninfales",
       "tipo": "Descripción",
-      "texto": "Hembra rodeada por diferentes estadios ninfales"
+      "id": "desc-hembra-rodeada-por-diferentes-estadios-n"
     },
     {
-      "id": "title-huevos-planococcus-citri",
+      "texto": "Huevos — Planococcus citri",
       "tipo": "Título",
-      "texto": "Huevos — Planococcus citri"
+      "id": "title-huevos-planococcus-citri"
     },
     {
-      "id": "desc-masa-ovigera-en-detalle-ultra-macro",
+      "texto": "Masa ovígera en detalle ultra macro",
       "tipo": "Descripción",
-      "texto": "Masa ovígera en detalle ultra macro"
+      "id": "desc-masa-ovigera-en-detalle-ultra-macro"
     },
     {
-      "id": "desc-postura-sobre-tejido-vegetal",
+      "texto": "Postura sobre tejido vegetal",
       "tipo": "Descripción",
-      "texto": "Postura sobre tejido vegetal"
+      "id": "desc-postura-sobre-tejido-vegetal"
     },
     {
-      "id": "desc-distribucion-de-huevos-en-el-sustrato",
+      "texto": "Distribución de huevos en el sustrato",
       "tipo": "Descripción",
-      "texto": "Distribución de huevos en el sustrato"
+      "id": "desc-distribucion-de-huevos-en-el-sustrato"
     },
     {
-      "id": "title-ninfas-planococcus-citri",
+      "texto": "Ninfas — Planococcus citri",
       "tipo": "Título",
-      "texto": "Ninfas — Planococcus citri"
+      "id": "title-ninfas-planococcus-citri"
     },
     {
-      "id": "desc-colonia-de-ninfas-en-distintos-estadios",
+      "texto": "Colonia de ninfas en distintos estadios",
       "tipo": "Descripción",
-      "texto": "Colonia de ninfas en distintos estadios"
+      "id": "desc-colonia-de-ninfas-en-distintos-estadios"
     },
     {
-      "id": "title-ninfa-i-hemiberlesia-lataniae",
+      "texto": "Ninfa I — Hemiberlesia lataniae",
       "tipo": "Título",
-      "texto": "Ninfa I — Hemiberlesia lataniae"
+      "id": "title-ninfa-i-hemiberlesia-lataniae"
     },
     {
-      "id": "desc-primera-muda-sobre-tejido-vegetal",
+      "texto": "Primera muda sobre tejido vegetal",
       "tipo": "Descripción",
-      "texto": "Primera muda sobre tejido vegetal"
+      "id": "desc-primera-muda-sobre-tejido-vegetal"
     },
     {
-      "id": "desc-ninfa-recien-emergida-color-amarillo-en-",
+      "texto": "Ninfa recien emergida color amarillo en nervio central",
       "tipo": "Descripción",
-      "texto": "Ninfa recien emergida color amarillo en nervio central"
+      "id": "desc-ninfa-recien-emergida-color-amarillo-en-"
     },
     {
-      "id": "title-escudo-en-formacion-h-lataniae",
+      "texto": "Escudo en formacion — H. lataniae",
       "tipo": "Título",
-      "texto": "Escudo en formacion — H. lataniae"
+      "id": "title-escudo-en-formacion-h-lataniae"
     },
     {
-      "id": "desc-inicio-de-formacion-del-escudo-protector",
+      "texto": "Inicio de formacion del escudo protector céreo",
       "tipo": "Descripción",
-      "texto": "Inicio de formacion del escudo protector céreo"
+      "id": "desc-inicio-de-formacion-del-escudo-protector"
     },
     {
-      "id": "title-hembra-adulta-hemiberlesia-lataniae",
+      "texto": "Hembra adulta — Hemiberlesia lataniae",
       "tipo": "Título",
-      "texto": "Hembra adulta — Hemiberlesia lataniae"
+      "id": "title-hembra-adulta-hemiberlesia-lataniae"
     },
     {
-      "id": "desc-escudo-circular-con-exuvia-sub-central-a",
+      "texto": "Escudo circular con exuvia sub-central anaranjada",
       "tipo": "Descripción",
-      "texto": "Escudo circular con exuvia sub-central anaranjada"
+      "id": "desc-escudo-circular-con-exuvia-sub-central-a"
     },
     {
-      "id": "desc-vista-superior-del-escudo-grisaceo-bien-",
+      "texto": "Vista superior del escudo grisáceo bien formado",
       "tipo": "Descripción",
-      "texto": "Vista superior del escudo grisáceo bien formado"
+      "id": "desc-vista-superior-del-escudo-grisaceo-bien-"
     },
     {
-      "id": "title-escudo-abierto-h-lataniae",
+      "texto": "Escudo abierto — H. lataniae",
       "tipo": "Título",
-      "texto": "Escudo abierto — H. lataniae"
+      "id": "title-escudo-abierto-h-lataniae"
     },
     {
-      "id": "desc-hembra-con-cuerpo-amarillo-visible-bajo-",
+      "texto": "Hembra con cuerpo amarillo visible bajo escudo levantado",
       "tipo": "Descripción",
-      "texto": "Hembra con cuerpo amarillo visible bajo escudo levantado"
+      "id": "desc-hembra-con-cuerpo-amarillo-visible-bajo-"
     },
     {
-      "id": "title-colonia-hemiberlesia-lataniae",
+      "texto": "Colonia — Hemiberlesia lataniae",
       "tipo": "Título",
-      "texto": "Colonia — Hemiberlesia lataniae"
+      "id": "title-colonia-hemiberlesia-lataniae"
     },
     {
-      "id": "desc-individuos-en-distintos-estadios-sobre-h",
+      "texto": "Individuos en distintos estadios sobre hoja",
       "tipo": "Descripción",
-      "texto": "Individuos en distintos estadios sobre hoja"
+      "id": "desc-individuos-en-distintos-estadios-sobre-h"
     },
     {
-      "id": "title-ninfa-hemiberlesia-lataniae",
+      "texto": "Ninfa — Hemiberlesia lataniae",
       "tipo": "Título",
-      "texto": "Ninfa — Hemiberlesia lataniae"
+      "id": "title-ninfa-hemiberlesia-lataniae"
     },
     {
-      "id": "desc-ninfa-de-color-anaranjado-sobre-sustrato",
+      "texto": "Ninfa de color anaranjado sobre sustrato vegetal",
       "tipo": "Descripción",
-      "texto": "Ninfa de color anaranjado sobre sustrato vegetal"
+      "id": "desc-ninfa-de-color-anaranjado-sobre-sustrato"
     },
     {
-      "id": "title-escudo-hemiberlesia-lataniae",
+      "texto": "Escudo — Hemiberlesia lataniae",
       "tipo": "Título",
-      "texto": "Escudo — Hemiberlesia lataniae"
+      "id": "title-escudo-hemiberlesia-lataniae"
     },
     {
-      "id": "desc-escudo-circular-con-zona-apical-caracter",
+      "texto": "Escudo circular con zona apical caracteristica naranja",
       "tipo": "Descripción",
-      "texto": "Escudo circular con zona apical caracteristica naranja"
+      "id": "desc-escudo-circular-con-zona-apical-caracter"
     },
     {
-      "id": "title-adultos-frankliniella-occidentalis",
+      "texto": "Adultos — Frankliniella occidentalis",
       "tipo": "Título",
-      "texto": "Adultos — Frankliniella occidentalis"
+      "id": "title-adultos-frankliniella-occidentalis"
     },
     {
-      "id": "desc-dos-individuos-adultos-bajo-microscopio-",
+      "texto": "Dos individuos adultos bajo microscopio estereoscópico",
       "tipo": "Descripción",
-      "texto": "Dos individuos adultos bajo microscopio estereoscópico"
+      "id": "desc-dos-individuos-adultos-bajo-microscopio-"
     },
     {
-      "id": "title-adulto-frankliniella-occidentalis",
+      "texto": "Adulto — Frankliniella occidentalis",
       "tipo": "Título",
-      "texto": "Adulto — Frankliniella occidentalis"
+      "id": "title-adulto-frankliniella-occidentalis"
     },
     {
-      "id": "desc-vista-dorsal-del-adulto-con-alas-flecada",
+      "texto": "Vista dorsal del adulto con alas flecadas características",
       "tipo": "Descripción",
-      "texto": "Vista dorsal del adulto con alas flecadas características"
+      "id": "desc-vista-dorsal-del-adulto-con-alas-flecada"
     },
     {
-      "id": "desc-detalle-de-segmentacion-abdominal-y-estr",
+      "texto": "Detalle de segmentación abdominal y estructura alar",
       "tipo": "Descripción",
-      "texto": "Detalle de segmentación abdominal y estructura alar"
+      "id": "desc-detalle-de-segmentacion-abdominal-y-estr"
     },
     {
-      "id": "title-ninfa-frankliniella-occidentalis",
+      "texto": "Ninfa — Frankliniella occidentalis",
       "tipo": "Título",
-      "texto": "Ninfa — Frankliniella occidentalis"
+      "id": "title-ninfa-frankliniella-occidentalis"
     },
     {
-      "id": "desc-ninfa-con-ojos-rojos-caracteristicos-sob",
+      "texto": "Ninfa con ojos rojos característicos sobre fondo neutro",
       "tipo": "Descripción",
-      "texto": "Ninfa con ojos rojos característicos sobre fondo neutro"
+      "id": "desc-ninfa-con-ojos-rojos-caracteristicos-sob"
     },
     {
-      "id": "desc-ninfa-en-campo-oscuro-detalle-de-setas-y",
+      "texto": "Ninfa en campo oscuro, detalle de setas y segmentación",
       "tipo": "Descripción",
-      "texto": "Ninfa en campo oscuro, detalle de setas y segmentación"
+      "id": "desc-ninfa-en-campo-oscuro-detalle-de-setas-y"
     },
     {
-      "id": "title-colonia-tetranychus-urticae",
+      "texto": "Colonia — Tetranychus urticae",
       "tipo": "Título",
-      "texto": "Colonia — Tetranychus urticae"
+      "id": "title-colonia-tetranychus-urticae"
     },
     {
-      "id": "desc-individuos-en-tallo-con-tela-de-seda-car",
+      "texto": "Individuos en tallo con tela de seda característica",
       "tipo": "Descripción",
-      "texto": "Individuos en tallo con tela de seda característica"
+      "id": "desc-individuos-en-tallo-con-tela-de-seda-car"
     },
     {
-      "id": "title-colonia-en-hoja-t-urticae",
+      "texto": "Colonia en hoja — T. urticae",
       "tipo": "Título",
-      "texto": "Colonia en hoja — T. urticae"
+      "id": "title-colonia-en-hoja-t-urticae"
     },
     {
-      "id": "desc-adultos-y-ninfas-agrupados-sobre-enves-d",
+      "texto": "Adultos y ninfas agrupados sobre envés de hoja",
       "tipo": "Descripción",
-      "texto": "Adultos y ninfas agrupados sobre envés de hoja"
+      "id": "desc-adultos-y-ninfas-agrupados-sobre-enves-d"
     },
     {
-      "id": "title-adultos-tetranychus-urticae",
+      "texto": "Adultos — Tetranychus urticae",
       "tipo": "Título",
-      "texto": "Adultos — Tetranychus urticae"
+      "id": "title-adultos-tetranychus-urticae"
     },
     {
-      "id": "desc-vista-de-colonia-con-individuos-en-disti",
+      "texto": "Vista de colonia con individuos en distintos estadios",
       "tipo": "Descripción",
-      "texto": "Vista de colonia con individuos en distintos estadios"
+      "id": "desc-vista-de-colonia-con-individuos-en-disti"
     },
     {
-      "id": "title-huevos-tetranychus-urticae",
+      "texto": "Huevos — Tetranychus urticae",
       "tipo": "Título",
-      "texto": "Huevos — Tetranychus urticae"
+      "id": "title-huevos-tetranychus-urticae"
     },
     {
-      "id": "desc-huevos-esfericos-ambar-depositados-sobre",
+      "texto": "Huevos esféricos ámbar depositados sobre tela de seda",
       "tipo": "Descripción",
-      "texto": "Huevos esféricos ámbar depositados sobre tela de seda"
+      "id": "desc-huevos-esfericos-ambar-depositados-sobre"
     },
     {
-      "id": "desc-hembras-adultas-con-manchas-oscuras-late",
+      "texto": "Hembras adultas con manchas oscuras laterales características",
       "tipo": "Descripción",
-      "texto": "Hembras adultas con manchas oscuras laterales características"
+      "id": "desc-hembras-adultas-con-manchas-oscuras-late"
     },
     {
-      "id": "title-dispersion-tetranychus-urticae",
+      "texto": "Dispersión — Tetranychus urticae",
       "tipo": "Título",
-      "texto": "Dispersión — Tetranychus urticae"
+      "id": "title-dispersion-tetranychus-urticae"
     },
     {
-      "id": "desc-individuos-suspendidos-en-filamentos-de-",
+      "texto": "Individuos suspendidos en filamentos de seda durante dispersión",
       "tipo": "Descripción",
-      "texto": "Individuos suspendidos en filamentos de seda durante dispersión"
+      "id": "desc-individuos-suspendidos-en-filamentos-de-"
     }
   ]
 }
