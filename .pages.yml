@@ -1,0 +1,21 @@
+content:
+  - name: galeria
+    label: "Galería — textos"
+    type: file
+    path: content/gallery.json
+    fields:
+      - name: items
+        label: "Imágenes de la galería"
+        type: object
+        list: true
+        fields:
+          - name: texto
+            label: "Texto (edítalo aquí)"
+            type: text
+          - name: tipo
+            label: "Tipo"
+            type: string
+          - name: id
+            label: "ID interno — no editar"
+            type: string
+            hidden: true
