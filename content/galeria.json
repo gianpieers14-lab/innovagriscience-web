@@ -1,0 +1,168 @@
+{
+  "bloques": [
+    {
+      "especie": "Planococcus citri",
+      "comun": "Chanchito blanco de los citricos",
+      "fotos": [
+        {
+          "imagen": "/images/galeria/planococcus-citri-1.jpg",
+          "titulo": "Macho — (Planococcus citri)",
+          "descripcion": ""
+        },
+        {
+          "imagen": "/images/galeria/planococcus-citri-2.jpg",
+          "titulo": "Macho — (Planococcus citri)",
+          "descripcion": ""
+        },
+        {
+          "imagen": "/images/galeria/planococcus-citri-3.jpg",
+          "titulo": "Hembra adulta — Planococcus citri",
+          "descripcion": ""
+        },
+        {
+          "imagen": "/images/galeria/planococcus-citri-4.jpg",
+          "titulo": "Hembra — Planococcus citri",
+          "descripcion": ""
+        },
+        {
+          "imagen": "/images/galeria/planococcus-citri-5.jpg",
+          "titulo": "Huevos — Planococcus citri",
+          "descripcion": ""
+        },
+        {
+          "imagen": "/images/galeria/planococcus-citri-6.jpg",
+          "titulo": "Huevos — Planococcus citri",
+          "descripcion": ""
+        },
+        {
+          "imagen": "/images/galeria/planococcus-citri-7.jpg",
+          "titulo": "Huevos — Planococcus citri",
+          "descripcion": ""
+        },
+        {
+          "imagen": "/images/galeria/planococcus-citri-8.jpg",
+          "titulo": "Ninfas — Planococcus citri",
+          "descripcion": ""
+        }
+      ]
+    },
+    {
+      "especie": "Hemiberlesia lataniae",
+      "comun": "Queresa latania / Escama blanca del palto",
+      "fotos": [
+        {
+          "imagen": "/images/galeria/hemiberlesia-lataniae-1.jpg",
+          "titulo": "Ninfa I — Hemiberlesia lataniae",
+          "descripcion": ""
+        },
+        {
+          "imagen": "/images/galeria/hemiberlesia-lataniae-2.jpg",
+          "titulo": "Ninfa I — Hemiberlesia lataniae",
+          "descripcion": ""
+        },
+        {
+          "imagen": "/images/galeria/hemiberlesia-lataniae-3.jpg",
+          "titulo": "Escudo en formacion — H. lataniae",
+          "descripcion": ""
+        },
+        {
+          "imagen": "/images/galeria/hemiberlesia-lataniae-4.jpg",
+          "titulo": "Hembra adulta — Hemiberlesia lataniae",
+          "descripcion": ""
+        },
+        {
+          "imagen": "/images/galeria/hemiberlesia-lataniae-5.jpg",
+          "titulo": "Hembra adulta — Hemiberlesia lataniae",
+          "descripcion": ""
+        },
+        {
+          "imagen": "/images/galeria/hemiberlesia-lataniae-6.jpg",
+          "titulo": "Escudo abierto — H. lataniae",
+          "descripcion": ""
+        },
+        {
+          "imagen": "/images/galeria/hemiberlesia-lataniae-7.jpg",
+          "titulo": "Colonia — Hemiberlesia lataniae",
+          "descripcion": ""
+        },
+        {
+          "imagen": "/images/galeria/hemiberlesia-lataniae-8.jpg",
+          "titulo": "Ninfa — Hemiberlesia lataniae",
+          "descripcion": ""
+        },
+        {
+          "imagen": "/images/galeria/hemiberlesia-lataniae-9.jpg",
+          "titulo": "Escudo — Hemiberlesia lataniae",
+          "descripcion": ""
+        }
+      ]
+    },
+    {
+      "especie": "Frankliniella occidentalis",
+      "comun": "Trips occidental de las flores",
+      "fotos": [
+        {
+          "imagen": "/images/galeria/frankliniella-occidentalis-1.jpg",
+          "titulo": "Adultos — Frankliniella occidentalis",
+          "descripcion": ""
+        },
+        {
+          "imagen": "/images/galeria/frankliniella-occidentalis-2.jpg",
+          "titulo": "Adulto — Frankliniella occidentalis",
+          "descripcion": ""
+        },
+        {
+          "imagen": "/images/galeria/frankliniella-occidentalis-3.jpg",
+          "titulo": "Adulto — Frankliniella occidentalis",
+          "descripcion": ""
+        },
+        {
+          "imagen": "/images/galeria/frankliniella-occidentalis-4.jpg",
+          "titulo": "Ninfa — Frankliniella occidentalis",
+          "descripcion": ""
+        },
+        {
+          "imagen": "/images/galeria/frankliniella-occidentalis-5.jpg",
+          "titulo": "Ninfa — Frankliniella occidentalis",
+          "descripcion": ""
+        }
+      ]
+    },
+    {
+      "especie": "Tetranychus urticae",
+      "comun": "Arana roja / Acaro de dos manchas",
+      "fotos": [
+        {
+          "imagen": "/images/galeria/tetranychus-urticae-1.jpg",
+          "titulo": "Colonia — Tetranychus urticae",
+          "descripcion": ""
+        },
+        {
+          "imagen": "/images/galeria/tetranychus-urticae-2.jpg",
+          "titulo": "Colonia en hoja — T. urticae",
+          "descripcion": ""
+        },
+        {
+          "imagen": "/images/galeria/tetranychus-urticae-3.jpg",
+          "titulo": "Adultos — Tetranychus urticae",
+          "descripcion": ""
+        },
+        {
+          "imagen": "/images/galeria/tetranychus-urticae-4.jpg",
+          "titulo": "Huevos — Tetranychus urticae",
+          "descripcion": ""
+        },
+        {
+          "imagen": "/images/galeria/tetranychus-urticae-5.jpg",
+          "titulo": "Adultos — Tetranychus urticae",
+          "descripcion": ""
+        },
+        {
+          "imagen": "/images/galeria/tetranychus-urticae-6.jpg",
+          "titulo": "Dispersión — Tetranychus urticae",
+          "descripcion": ""
+        }
+      ]
+    }
+  ]
+}

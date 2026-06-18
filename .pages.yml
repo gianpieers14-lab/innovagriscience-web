@@ -1,21 +1,35 @@
+media:
+  input: images
+  output: /images
+
 content:
   - name: galeria
-    label: "Galería — textos"
+    label: "Galería"
     type: file
-    path: content/gallery.json
+    path: content/galeria.json
     fields:
-      - name: items
-        label: "Imágenes de la galería"
+      - name: bloques
+        label: "Especies"
         type: object
         list: true
         fields:
-          - name: texto
-            label: "Texto (edítalo aquí)"
-            type: text
-          - name: tipo
-            label: "Tipo"
+          - name: especie
+            label: "Especie (nombre científico)"
             type: string
-          - name: id
-            label: "ID interno — no editar"
+          - name: comun
+            label: "Nombre común"
             type: string
-            hidden: true
+          - name: fotos
+            label: "Fotografías"
+            type: object
+            list: true
+            fields:
+              - name: imagen
+                label: "Imagen"
+                type: image
+              - name: titulo
+                label: "Título"
+                type: string
+              - name: descripcion
+                label: "Descripción"
+                type: text
