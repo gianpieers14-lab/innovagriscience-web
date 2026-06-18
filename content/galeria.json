@@ -6,43 +6,38 @@
       "fotos": [
         {
           "imagen": "/images/galeria/planococcus-citri-1.jpg",
-          "titulo": "Macho — (Planococcus citri)",
-          "descripcion": ""
+          "titulo": "Macho (alado) — Planococcus citri",
+          "descripcion": "Adulto macho sobre hembra adulta."
         },
         {
           "imagen": "/images/galeria/planococcus-citri-2.jpg",
-          "titulo": "Macho — (Planococcus citri)",
-          "descripcion": ""
+          "titulo": "Macho (alado) — Planococcus citri",
+          "descripcion": "Vista lateral de macho adulto ."
         },
         {
           "imagen": "/images/galeria/planococcus-citri-3.jpg",
-          "titulo": "Hembra adulta — Planococcus citri",
-          "descripcion": ""
+          "titulo": "Hembras adultas — Planococcus citri",
+          "descripcion": "Colonia de hembras adultas y ninfas."
         },
         {
           "imagen": "/images/galeria/planococcus-citri-4.jpg",
-          "titulo": "Hembra — Planococcus citri",
-          "descripcion": ""
+          "titulo": "Hembra adulta — Planococcus citri",
+          "descripcion": "Hembra adulta rodeada por diferentes estadios ninfales."
         },
         {
           "imagen": "/images/galeria/planococcus-citri-5.jpg",
           "titulo": "Huevos — Planococcus citri",
-          "descripcion": ""
-        },
-        {
-          "imagen": "/images/galeria/planococcus-citri-6.jpg",
-          "titulo": "Huevos — Planococcus citri",
-          "descripcion": ""
+          "descripcion": "Ovisaco de \"Chanchito blanco\"."
         },
         {
           "imagen": "/images/galeria/planococcus-citri-7.jpg",
           "titulo": "Huevos — Planococcus citri",
-          "descripcion": ""
+          "descripcion": "Detalle de huevos a nivel macro. "
         },
         {
           "imagen": "/images/galeria/planococcus-citri-8.jpg",
           "titulo": "Ninfas — Planococcus citri",
-          "descripcion": ""
+          "descripcion": "Colonia de diferentes estadios ninfales."
         }
       ]
     },
@@ -52,48 +47,39 @@
       "fotos": [
         {
           "imagen": "/images/galeria/hemiberlesia-lataniae-1.jpg",
-          "titulo": "Ninfa I — Hemiberlesia lataniae",
-          "descripcion": ""
+          "titulo": "Ninfa I — Hemiberlesia lataniae"
         },
         {
           "imagen": "/images/galeria/hemiberlesia-lataniae-2.jpg",
-          "titulo": "Ninfa I — Hemiberlesia lataniae",
-          "descripcion": ""
+          "titulo": "Ninfa I — Hemiberlesia lataniae"
         },
         {
           "imagen": "/images/galeria/hemiberlesia-lataniae-3.jpg",
-          "titulo": "Escudo en formacion — H. lataniae",
-          "descripcion": ""
+          "titulo": "Escudo en formacion — H. lataniae"
         },
         {
           "imagen": "/images/galeria/hemiberlesia-lataniae-4.jpg",
-          "titulo": "Hembra adulta — Hemiberlesia lataniae",
-          "descripcion": ""
+          "titulo": "Hembra adulta — Hemiberlesia lataniae"
         },
         {
           "imagen": "/images/galeria/hemiberlesia-lataniae-5.jpg",
-          "titulo": "Hembra adulta — Hemiberlesia lataniae",
-          "descripcion": ""
+          "titulo": "Hembra adulta — Hemiberlesia lataniae"
         },
         {
           "imagen": "/images/galeria/hemiberlesia-lataniae-6.jpg",
-          "titulo": "Escudo abierto — H. lataniae",
-          "descripcion": ""
+          "titulo": "Escudo abierto — H. lataniae"
         },
         {
           "imagen": "/images/galeria/hemiberlesia-lataniae-7.jpg",
-          "titulo": "Colonia — Hemiberlesia lataniae",
-          "descripcion": ""
+          "titulo": "Colonia — Hemiberlesia lataniae"
         },
         {
           "imagen": "/images/galeria/hemiberlesia-lataniae-8.jpg",
-          "titulo": "Ninfa — Hemiberlesia lataniae",
-          "descripcion": ""
+          "titulo": "Ninfa — Hemiberlesia lataniae"
         },
         {
           "imagen": "/images/galeria/hemiberlesia-lataniae-9.jpg",
-          "titulo": "Escudo — Hemiberlesia lataniae",
-          "descripcion": ""
+          "titulo": "Escudo — Hemiberlesia lataniae"
         }
       ]
     },
@@ -103,28 +89,23 @@
       "fotos": [
         {
           "imagen": "/images/galeria/frankliniella-occidentalis-1.jpg",
-          "titulo": "Adultos — Frankliniella occidentalis",
-          "descripcion": ""
+          "titulo": "Adultos — Frankliniella occidentalis"
         },
         {
           "imagen": "/images/galeria/frankliniella-occidentalis-2.jpg",
-          "titulo": "Adulto — Frankliniella occidentalis",
-          "descripcion": ""
+          "titulo": "Adulto — Frankliniella occidentalis"
         },
         {
           "imagen": "/images/galeria/frankliniella-occidentalis-3.jpg",
-          "titulo": "Adulto — Frankliniella occidentalis",
-          "descripcion": ""
+          "titulo": "Adulto — Frankliniella occidentalis"
         },
         {
           "imagen": "/images/galeria/frankliniella-occidentalis-4.jpg",
-          "titulo": "Ninfa — Frankliniella occidentalis",
-          "descripcion": ""
+          "titulo": "Ninfa — Frankliniella occidentalis"
         },
         {
           "imagen": "/images/galeria/frankliniella-occidentalis-5.jpg",
-          "titulo": "Ninfa — Frankliniella occidentalis",
-          "descripcion": ""
+          "titulo": "Ninfa — Frankliniella occidentalis"
         }
       ]
     },
@@ -134,33 +115,27 @@
       "fotos": [
         {
           "imagen": "/images/galeria/tetranychus-urticae-1.jpg",
-          "titulo": "Colonia — Tetranychus urticae",
-          "descripcion": ""
+          "titulo": "Colonia — Tetranychus urticae"
         },
         {
           "imagen": "/images/galeria/tetranychus-urticae-2.jpg",
-          "titulo": "Colonia en hoja — T. urticae",
-          "descripcion": ""
+          "titulo": "Colonia en hoja — T. urticae"
         },
         {
           "imagen": "/images/galeria/tetranychus-urticae-3.jpg",
-          "titulo": "Adultos — Tetranychus urticae",
-          "descripcion": ""
+          "titulo": "Adultos — Tetranychus urticae"
         },
         {
           "imagen": "/images/galeria/tetranychus-urticae-4.jpg",
-          "titulo": "Huevos — Tetranychus urticae",
-          "descripcion": ""
+          "titulo": "Huevos — Tetranychus urticae"
         },
         {
           "imagen": "/images/galeria/tetranychus-urticae-5.jpg",
-          "titulo": "Adultos — Tetranychus urticae",
-          "descripcion": ""
+          "titulo": "Adultos — Tetranychus urticae"
         },
         {
           "imagen": "/images/galeria/tetranychus-urticae-6.jpg",
-          "titulo": "Dispersión — Tetranychus urticae",
-          "descripcion": ""
+          "titulo": "Dispersión — Tetranychus urticae"
         }
       ]
     }
