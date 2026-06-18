@@ -33,3 +33,38 @@ content:
               - name: descripcion
                 label: "Descripción"
                 type: text
+
+  - name: novedades
+    label: "Novedades (Blog)"
+    type: file
+    path: content/blog.json
+    fields:
+      - name: mostrar
+        label: "Mostrar en la web (encender / apagar)"
+        type: boolean
+      - name: titulo_seccion
+        label: "Título de la sección"
+        type: string
+      - name: intro
+        label: "Texto introductorio"
+        type: text
+      - name: posts
+        label: "Publicaciones"
+        type: object
+        list: true
+        fields:
+          - name: titulo
+            label: "Título"
+            type: string
+          - name: fecha
+            label: "Fecha"
+            type: string
+          - name: imagen
+            label: "Imagen"
+            type: image
+          - name: resumen
+            label: "Resumen"
+            type: text
+          - name: contenido
+            label: "Contenido completo"
+            type: rich-text

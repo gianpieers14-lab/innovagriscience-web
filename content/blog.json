@@ -1,0 +1,21 @@
+{
+  "mostrar": true,
+  "titulo_seccion": "Novedades",
+  "intro": "Artículos, investigaciones y novedades del laboratorio INNOVAGRISCIENCE.",
+  "posts": [
+    {
+      "titulo": "Bienvenidos a nuestras Novedades",
+      "fecha": "Junio 2026",
+      "imagen": "/images/galeria/tetranychus-urticae-1.jpg",
+      "resumen": "En este espacio compartiremos investigaciones, ensayos de campo y novedades del laboratorio. ¡Pronto más contenido!",
+      "contenido": ""
+    },
+    {
+      "titulo": "Control de arañita roja en palto",
+      "fecha": "Junio 2026",
+      "imagen": "/images/galeria/planococcus-citri-1.jpg",
+      "resumen": "Resultados preliminares de nuestros ensayos de eficacia para el manejo integrado de Tetranychus urticae.",
+      "contenido": ""
+    }
+  ]
+}
