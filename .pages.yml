@@ -60,11 +60,14 @@ content:
             label: "Fecha"
             type: string
           - name: imagen
-            label: "Imagen"
+            label: "Imagen de portada"
             type: image
           - name: resumen
-            label: "Resumen"
+            label: "Resumen (sinopsis corta)"
             type: text
           - name: contenido
-            label: "Contenido completo"
+            label: "Contenido completo (se abre al hacer clic)"
             type: rich-text
+          - name: pdf
+            label: "Archivo PDF (opcional)"
+            type: file
