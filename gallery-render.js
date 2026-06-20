@@ -1,5 +1,31 @@
 (function () {
   function esc(s) { return (s || '').replace(/&/g, '&amp;').replace(/</g, '&lt;').replace(/>/g, '&gt;').replace(/"/g, '&quot;'); }
+  function slug(s) { return (s || '').toLowerCase().normalize('NFD').replace(/[̀-ͯ]/g, '').replace(/[^a-z0-9]+/g, '-').replace(/^-+|-+$/g, ''); }
+
+  function renderMini(data) {
+    var root = document.getElementById('mini-carousels');
+    if (!root) return;
+    root.innerHTML = '';
+    (data.bloques || []).forEach(function (blk, bi) {
+      var fotos = blk.fotos || [];
+      if (!fotos.length) return;
+      var key = (slug(blk.especie) || 'mc') + '-' + bi;
+      var slides = fotos.map(function (f, i) {
+        return '<div class="mc-slide' + (i === 0 ? ' active' : '') + '" data-c="' + key + '"><img src="' + esc(f.imagen) + '" alt="' + esc(f.titulo) + '"/><div class="mc-caption"><span class="mc-tag" style="color:#3CB649;">' + esc(blk.especie) + '</span><div class="mc-title">' + esc(f.titulo) + '</div><div class="mc-desc">' + esc(f.descripcion || '') + '</div></div></div>';
+      }).join('');
+      var dots = fotos.map(function (f, i) {
+        return '<button class="mc-dot' + (i === 0 ? ' active' : '') + '" data-c="' + key + '" onclick="mcGoTo(\'' + key + '\',' + i + ')"></button>';
+      }).join('');
+      var mc = document.createElement('div');
+      mc.className = 'mini-carousel';
+      mc.innerHTML = '<div class="mc-header"><span class="mc-species">' + esc(blk.especie) + '</span><span class="mc-common">' + esc(blk.comun) + '</span><span class="mc-count">' + fotos.length + ' fotos</span></div>' +
+        '<div class="mc-track">' + slides + '</div>' +
+        '<div class="mc-controls"><button class="mc-btn" onclick="mcPrev(\'' + key + '\')">&#8249;</button><div class="mc-dots">' + dots + '</div><button class="mc-btn" onclick="mcNext(\'' + key + '\')">&#8250;</button></div>';
+      root.appendChild(mc);
+      if (typeof window.mcInit === 'function') window.mcInit(key, fotos.length);
+    });
+  }
+
   var ZOOM = '<svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="#fff" stroke-width="2" stroke-linecap="round"><circle cx="11" cy="11" r="8"/><line x1="21" y1="21" x2="16.65" y2="16.65"/><line x1="11" y1="8" x2="11" y2="14"/><line x1="8" y1="11" x2="14" y2="11"/></svg>';
   var FLAT = [];
 
@@ -38,7 +64,7 @@
 
   fetch('content/galeria.json', { cache: 'no-store' })
     .then(function (r) { return r.json(); })
-    .then(render)
+    .then(function (data) { render(data); renderMini(data); })
     .catch(function () {});
 
   var ov = document.createElement('div');
