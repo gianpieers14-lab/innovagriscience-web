@@ -28,7 +28,7 @@
     BPOSTS.forEach(function (post, i) {
       var card = document.createElement('article'); card.className = 'blog-card';
       var img = post.imagen ? '<div class="blog-img" style="background-image:url(\'' + esc(post.imagen) + '\')"></div>' : '';
-      var hasMore = post.contenido || post.pdf;
+      var hasMore = post.contenido || post.pdf || (post.documentos && post.documentos.length);
       card.innerHTML = img + '<div class="blog-body">' +
         (post.fecha ? '<div class="blog-date">' + esc(post.fecha) + '</div>' : '') +
         '<h3 class="blog-ptitle">' + esc(post.titulo) + '</h3>' +
@@ -53,12 +53,17 @@
   function openPost(i) {
     var p = BPOSTS[i]; if (!p) return;
     document.getElementById('bm-img').style.backgroundImage = p.imagen ? ("url('" + p.imagen + "')") : '';
-    var pdfBtn = p.pdf ? ('<a href="' + esc(p.pdf) + '" target="_blank" rel="noopener" style="display:inline-flex;align-items:center;gap:8px;background:#009739;color:#fff;text-decoration:none;font-weight:600;padding:.75rem 1.4rem;border-radius:9px;margin-top:1.3rem;font-family:Inter,Arial,sans-serif;">&#128196;&nbsp; Ver / descargar PDF</a>') : '';
+    var docs = [];
+    if (Array.isArray(p.documentos)) docs = docs.concat(p.documentos);
+    if (p.pdf) docs.push({ titulo: 'Ver / descargar documento', archivo: p.pdf });
+    var docBtns = docs.filter(function (d) { return d && d.archivo; }).map(function (d) {
+      return '<a href="' + esc(d.archivo) + '" target="_blank" rel="noopener" style="display:inline-flex;align-items:center;gap:8px;background:#009739;color:#fff;text-decoration:none;font-weight:600;padding:.7rem 1.3rem;border-radius:9px;margin:1.1rem .6rem 0 0;font-family:Inter,Arial,sans-serif;">&#128196;&nbsp; ' + esc(d.titulo || 'Documento') + '</a>';
+    }).join('');
     document.getElementById('bm-content').innerHTML =
       (p.fecha ? '<div style="font-size:.7rem;font-weight:600;letter-spacing:.08em;text-transform:uppercase;color:#3CB649;margin-bottom:.5rem;font-family:Inter,Arial,sans-serif;">' + esc(p.fecha) + '</div>' : '') +
       '<h2 style="font-family:\'Playfair Display\',serif;color:#115F5D;font-size:1.6rem;line-height:1.25;margin-bottom:1rem;">' + esc(p.titulo) + '</h2>' +
       '<div class="bm-rich" style="font-family:Inter,Arial,sans-serif;color:#3A5453;line-height:1.8;font-size:.92rem;">' +
-      (p.contenido ? mdToHtml(p.contenido) : ('<p>' + esc(p.resumen || '') + '</p>')) + '</div>' + pdfBtn;
+      (p.contenido ? mdToHtml(p.contenido) : ('<p>' + esc(p.resumen || '') + '</p>')) + '</div>' + docBtns;
     mv.style.display = 'flex';
     document.body.style.overflow = 'hidden';
     mv.scrollTop = 0;

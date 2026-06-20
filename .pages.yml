@@ -68,6 +68,14 @@ content:
           - name: contenido
             label: "Contenido completo (se abre al hacer clic)"
             type: rich-text
-          - name: pdf
-            label: "Archivo PDF (opcional)"
-            type: file
+          - name: documentos
+            label: "Documentos adjuntos (PDF, Word, etc.) — puedes agregar varios"
+            type: object
+            list: true
+            fields:
+              - name: titulo
+                label: "Nombre del documento (texto del botón)"
+                type: string
+              - name: archivo
+                label: "Archivo (PDF, Word, etc.)"
+                type: file
