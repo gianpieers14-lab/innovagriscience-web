@@ -1,0 +1,21 @@
+{
+  "mostrar": true,
+  "titulo_seccion": "Nosotros",
+  "intro": "Conoce la filosofía y el equipo detrás de INNOVAGRISCIENCE.",
+  "mision": "Brindar servicios de investigación científica agrícola con rigor, precisión y compromiso, apoyando a productores y empresas en el manejo integrado de plagas y la toma de decisiones basada en evidencia.",
+  "vision": "Ser el laboratorio de referencia en investigación entomológica y manejo de plagas en el norte del Perú, reconocido por su calidad técnica e innovación.",
+  "equipo": [
+    {
+      "nombre": "Ing. Gianpieers Ignacio Guevara",
+      "cargo": "Gerente",
+      "foto": "/images/galeria/planococcus-citri-1.jpg",
+      "descripcion": "Especialista en investigación agrícola y manejo integrado de plagas."
+    },
+    {
+      "nombre": "Ing. Luis Ángel Vives Carrasco",
+      "cargo": "Subgerente",
+      "foto": "/images/galeria/tetranychus-urticae-1.jpg",
+      "descripcion": "Especialista en entomología y ensayos de eficacia en campo."
+    }
+  ]
+}

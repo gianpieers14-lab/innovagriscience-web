@@ -13,69 +13,76 @@ content:
         type: object
         list: true
         fields:
-          - name: especie
-            label: "Especie (nombre científico)"
-            type: string
-          - name: comun
-            label: "Nombre común"
-            type: string
+          - { name: especie, label: "Especie (nombre científico)", type: string }
+          - { name: comun, label: "Nombre común", type: string }
           - name: fotos
             label: "Fotografías"
             type: object
             list: true
             fields:
-              - name: imagen
-                label: "Imagen"
-                type: image
-              - name: titulo
-                label: "Título"
-                type: string
-              - name: descripcion
-                label: "Descripción"
-                type: text
+              - { name: imagen, label: "Imagen", type: image }
+              - { name: titulo, label: "Título", type: string }
+              - { name: descripcion, label: "Descripción", type: text }
 
   - name: novedades
     label: "Novedades (Blog)"
     type: file
     path: content/blog.json
     fields:
-      - name: mostrar
-        label: "Mostrar en la web (encender / apagar)"
-        type: boolean
-      - name: titulo_seccion
-        label: "Título de la sección"
-        type: string
-      - name: intro
-        label: "Texto introductorio"
-        type: text
+      - { name: mostrar, label: "Mostrar en la web (encender / apagar)", type: boolean }
+      - { name: titulo_seccion, label: "Título de la sección", type: string }
+      - { name: intro, label: "Texto introductorio", type: text }
       - name: posts
         label: "Publicaciones"
         type: object
         list: true
         fields:
-          - name: titulo
-            label: "Título"
-            type: string
-          - name: fecha
-            label: "Fecha"
-            type: string
-          - name: imagen
-            label: "Imagen de portada"
-            type: image
-          - name: resumen
-            label: "Resumen (sinopsis corta)"
-            type: text
-          - name: contenido
-            label: "Contenido completo (se abre al hacer clic)"
-            type: rich-text
+          - { name: titulo, label: "Título", type: string }
+          - { name: fecha, label: "Fecha", type: string }
+          - { name: imagen, label: "Imagen de portada", type: image }
+          - { name: resumen, label: "Resumen (sinopsis corta)", type: text }
+          - { name: contenido, label: "Contenido completo (se abre al hacer clic)", type: rich-text }
           - name: documentos
             label: "Documentos adjuntos (PDF, Word, etc.) — puedes agregar varios"
             type: object
             list: true
             fields:
-              - name: titulo
-                label: "Nombre del documento (texto del botón)"
-                type: string
-              - name: archivo
-                label: "Archivo (PDF, Word, etc.)"
-                type: file
+              - { name: titulo, label: "Nombre del documento (texto del botón)", type: string }
+              - { name: archivo, label: "Archivo (PDF, Word, etc.)", type: file }
+
+  - name: nosotros
+    label: "Nosotros"
+    type: file
+    path: content/nosotros.json
+    fields:
+      - { name: mostrar, label: "Mostrar en la web (encender / apagar)", type: boolean }
+      - { name: titulo_seccion, label: "Título de la sección", type: string }
+      - { name: intro, label: "Texto introductorio", type: text }
+      - { name: mision, label: "Misión", type: text }
+      - { name: vision, label: "Visión", type: text }
+      - name: equipo
+        label: "Equipo (puedes agregar varios)"
+        type: object
+        list: true
+        fields:
+          - { name: nombre, label: "Nombre", type: string }
+          - { name: cargo, label: "Cargo", type: string }
+          - { name: foto, label: "Foto", type: image }
+          - { name: descripcion, label: "Descripción", type: text }
+
+  - name: investigacion
+    label: "Investigación"
+    type: file
+    path: content/investigacion.json
+    fields:
+      - { name: mostrar, label: "Mostrar en la web (encender / apagar)", type: boolean }
+      - { name: titulo_seccion, label: "Título de la sección", type: string }
+      - { name: intro, label: "Texto introductorio", type: text }
+      - name: lineas
+        label: "Líneas de investigación (puedes agregar varias)"
+        type: object
+        list: true
+        fields:
+          - { name: titulo, label: "Título", type: string }
+          - { name: descripcion, label: "Descripción", type: text }
+          - { name: imagen, label: "Imagen", type: image }

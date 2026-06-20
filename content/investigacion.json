@@ -1,0 +1,22 @@
+{
+  "mostrar": true,
+  "titulo_seccion": "Investigación",
+  "intro": "Nuestras líneas de investigación y el trabajo científico del laboratorio.",
+  "lineas": [
+    {
+      "titulo": "Identificación entomológica",
+      "descripcion": "Identificación de especies de plagas agrícolas mediante análisis especializado y documentación técnica.",
+      "imagen": "/images/galeria/planococcus-citri-1.jpg"
+    },
+    {
+      "titulo": "Ensayos de eficacia",
+      "descripcion": "Evaluación de productos y estrategias para el control de plagas en condiciones de laboratorio y campo.",
+      "imagen": "/images/galeria/tetranychus-urticae-1.jpg"
+    },
+    {
+      "titulo": "Fotografía macro científica",
+      "descripcion": "Documentación fotográfica macro y ultra macro de alta resolución para registro y referencia técnica.",
+      "imagen": "/images/galeria/hemiberlesia-lataniae-1.jpg"
+    }
+  ]
+}
