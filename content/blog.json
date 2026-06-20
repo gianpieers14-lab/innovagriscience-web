@@ -1,5 +1,5 @@
 {
-  "mostrar": true,
+  "mostrar": false,
   "titulo_seccion": "Novedades",
   "intro": "Artículos, investigaciones y novedades del laboratorio INNOVAGRISCIENCE. Haz clic en cualquier publicación para leer el detalle completo.",
   "posts": [
