@@ -1,5 +1,5 @@
 {
-  "mostrar": true,
+  "mostrar": false,
   "titulo_seccion": "Investigación",
   "intro": "Nuestras líneas de investigación y el trabajo científico del laboratorio.",
   "lineas": [
