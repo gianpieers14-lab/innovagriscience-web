@@ -26,6 +26,51 @@
     });
   }
 
+  function renderHero(data) {
+    var track = document.getElementById('hero-track');
+    var dotsWrap = document.getElementById('hero-dots');
+    if (!track) return;
+    var blk = (data.bloques || [])[0];
+    var fotos = blk ? (blk.fotos || []) : [];
+    if (!fotos.length) return;
+    var TAG = 'Identificación entomológica · I+D+i';
+    track.innerHTML = fotos.map(function (f, i) {
+      return '<div class="slide' + (i === 0 ? ' active' : '') + '"><img src="' + esc(f.imagen) + '" alt="' + esc(f.titulo) + '"/><div class="slide-overlay"></div><div class="slide-caption"><span class="slide-tag">' + TAG + '</span><div class="slide-title">' + esc(f.titulo) + '</div><div class="slide-desc">' + esc(f.descripcion || '') + '</div></div></div>';
+    }).join('');
+    if (dotsWrap) {
+      dotsWrap.innerHTML = fotos.map(function (f, i) {
+        return '<button class="dot' + (i === 0 ? ' active' : '') + '" onclick="goTo(' + i + ')"></button>';
+      }).join('');
+    }
+    var slides = track.querySelectorAll('.slide');
+    var dots = dotsWrap ? dotsWrap.querySelectorAll('.dot') : [];
+    var prog = document.querySelector('.car-progress');
+    var current = 0, total = slides.length, INTERVAL = 5500, timer;
+    function go(n) {
+      slides[current].classList.remove('active');
+      if (dots[current]) dots[current].classList.remove('active');
+      current = (n + total) % total;
+      slides[current].classList.add('active');
+      if (dots[current]) dots[current].classList.add('active');
+      resetProg();
+    }
+    function resetProg() {
+      if (!prog) return;
+      prog.style.transition = 'none'; prog.style.width = '0%';
+      requestAnimationFrame(function () { requestAnimationFrame(function () {
+        prog.style.transition = 'width ' + INTERVAL + 'ms linear'; prog.style.width = '100%';
+      }); });
+    }
+    function start() { timer = setInterval(function () { go(current + 1); }, INTERVAL); resetProg(); }
+    function stop() { clearInterval(timer); if (prog) prog.style.transition = 'none'; }
+    var wrap = document.querySelector('.hero-carousel');
+    if (wrap) { wrap.addEventListener('mouseenter', stop); wrap.addEventListener('mouseleave', start); }
+    window.goTo = function (n) { stop(); go(n); start(); };
+    window.carouselPrev = function () { stop(); go(current - 1); start(); };
+    window.carouselNext = function () { stop(); go(current + 1); start(); };
+    if (total > 1) start(); else resetProg();
+  }
+
   var ZOOM = '<svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="#fff" stroke-width="2" stroke-linecap="round"><circle cx="11" cy="11" r="8"/><line x1="21" y1="21" x2="16.65" y2="16.65"/><line x1="11" y1="8" x2="11" y2="14"/><line x1="8" y1="11" x2="14" y2="11"/></svg>';
   var FLAT = [];
 
@@ -64,7 +109,7 @@
 
   fetch('content/galeria.json', { cache: 'no-store' })
     .then(function (r) { return r.json(); })
-    .then(function (data) { render(data); renderMini(data); })
+    .then(function (data) { render(data); renderMini(data); renderHero(data); })
     .catch(function () {});
 
   var ov = document.createElement('div');
